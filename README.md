@@ -1,22 +1,23 @@
-Experiment 2: Data Visualization Using Matplotlib and Seaborn
+# Experiment 2: Data Visualization Using Matplotlib and Seaborn
 
-
-Aim
-
+## Aim
 
 To visualize data using Matplotlib and Seaborn libraries.
 
-Algorithm
-Start.
-Import the Matplotlib and Seaborn libraries.
-Load data into a Pandas DataFrame.
-Plot a histogram for age distribution using plt.hist().
-Plot a scatter plot for Age vs. Salary using sns.scatterplot().
-Plot salary distribution using sns.boxplot().
-Show the plots sequentially.
-Stop.
+## Algorithm
 
-Program
+1.  **Start.**
+2.  Import the Matplotlib and Seaborn libraries.
+3.  Load data into a Pandas DataFrame.
+4.  Plot a histogram for age distribution using `plt.hist()`.
+5.  Plot a scatter plot for Age vs. Salary using `sns.scatterplot()`.
+6.  Plot salary distribution using `sns.boxplot()`.
+7.  Show the plots sequentially.
+8.  **Stop.**
+
+
+## Program
+```python
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -56,10 +57,10 @@ sns.boxplot(y=df['Salary'])
 plt.title("Salary Distribution")
 plt.ylabel("Salary")
 plt.show()
+```
 
-
-output
-
+## output
+```text
 ### 1. Dataset
  Dataset:
    Age  Salary
@@ -73,12 +74,12 @@ output
 7   40   55000
 8   42   60000
 9   45   65000
-
+```
 <img width="792" height="510" alt="image" src="https://github.com/user-attachments/assets/98a3273e-4bd9-4eee-bc25-3caef596ac9c" />
 
 <img width="766" height="556" alt="image" src="https://github.com/user-attachments/assets/328e070a-992e-405d-91de-df3c7a727afd" />
 
 <img width="797" height="461" alt="image" src="https://github.com/user-attachments/assets/127148fc-58f2-4eb7-b507-5d84fa56de35" />
 
-result
+##result
 The program was successfully executed using Pandas, Matplotlib and Seaborn. The histogram, scatter plot and boxplot were generated successfully.
