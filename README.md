@@ -81,5 +81,5 @@ plt.show()
 
 <img width="797" height="461" alt="image" src="https://github.com/user-attachments/assets/127148fc-58f2-4eb7-b507-5d84fa56de35" />
 
-##result
+##  result
 The program was successfully executed using Pandas, Matplotlib and Seaborn. The histogram, scatter plot and boxplot were generated successfully.
